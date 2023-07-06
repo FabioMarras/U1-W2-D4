@@ -90,7 +90,9 @@ console.log(check3and7(21));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-function reverseString(str) {}
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
 console.log(reverseString("EPICODE"));
 
 /* ESERCIZIO 8
@@ -127,4 +129,4 @@ function giveMeRandom(n) {
 }
 console.log(giveMeRandom(Math.floor(Math.random() * 10)));
 
-/* 5, 7, 8 non risultano*/
+/* 5, 8 non risultano*/
